@@ -1,0 +1,79 @@
+```json
+{
+  "serie": "SIN-S",
+  "modelli": {
+    "50": {
+      "specifiche": {
+        "superficie_pistone": 14,
+        "pressione_max": 70,
+        "trazione_40bar": 5.5,
+        "velocita_max": 7000
+      }
+    },
+    "70": {
+      "specifiche": {
+        "superficie_pistone": 28,
+        "pressione_max": 70,
+        "trazione_40bar": 11,
+        "velocita_max": 7000
+      }
+    },
+    "85": {
+      "specifiche": {
+        "superficie_pistone": 48,
+        "pressione_max": 70,
+        "trazione_40bar": 19,
+        "velocita_max": 7000
+      }
+    },
+    "100": {
+      "specifiche": {
+        "superficie_pistone": 66,
+        "pressione_max": 70,
+        "trazione_40bar": 26,
+        "velocita_max": 7000
+      }
+    },
+    "125": {
+      "specifiche": {
+        "superficie_pistone": 103,
+        "pressione_max": 70,
+        "trazione_40bar": 41,
+        "velocita_max": 6000
+      }
+    },
+    "150": {
+      "specifiche": {
+        "superficie_pistone": 157,
+        "pressione_max": 70,
+        "trazione_40bar": 62,
+        "velocita_max": 6000
+      }
+    },
+    "175": {
+      "specifiche": {
+        "superficie_pistone": 212,
+        "pressione_max": 70,
+        "trazione_40bar": 84,
+        "velocita_max": 5000
+      }
+    },
+    "200": {
+      "specifiche": {
+        "superficie_pistone": 280,
+        "pressione_max": 70,
+        "trazione_40bar": 112,
+        "velocita_max": 4000
+      }
+    },
+    "250": {
+      "specifiche": {
+        "superficie_pistone": 457,
+        "pressione_max": 50,
+        "trazione_40bar": 180,
+        "velocita_max": 2000
+      }
+    }
+  }
+}
+```
