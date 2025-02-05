@@ -1,0 +1,101 @@
+{
+ "serie": "TSF-C/TSR-C",
+ "modelli": {
+   "135": {
+     "specifiche": {
+       "forza_trazione_max": 12,    
+       "forza_serraggio_max": 29,   
+       "velocita_max": 8000,
+       "Q": -0.0062,
+       "b": 8,
+       "h": 39,
+       "Rmed": 42,
+       "Z": 16
+     }
+   },
+   "170": {
+     "specifiche": {
+       "forza_trazione_max": 18,
+       "forza_serraggio_max": 44,
+       "velocita_max": 5000,
+       "Q": -0.0045,
+       "b": 9,
+       "h": 50,
+       "Rmed": 55,
+       "Z": 21
+     }
+   },
+   "210": {
+     "specifiche": {
+       "forza_trazione_max": 25,
+       "forza_serraggio_max": 60,
+       "velocita_max": 4500,
+       "Q": -0.0135,
+       "b": 10,
+       "h": 60,
+       "Rmed": 64,
+       "Z": 25
+     }
+   },
+   "250": {
+     "specifiche": {
+       "forza_trazione_max": 40,
+       "forza_serraggio_max": 96,
+       "velocita_max": 3800,
+       "Q": -0.044,
+       "b": 12,
+       "h": 70,
+       "Rmed": 82,
+       "Z": 25
+     }
+   },
+   "315": {
+     "specifiche": {
+       "forza_trazione_max": 40,
+       "forza_serraggio_max": 96,
+       "velocita_max": 3000,
+       "Q": -0.079,
+       "b": 12,
+       "h": 70,
+       "Rmed": 107,
+       "Z": 25
+     }
+   },
+   "400": {
+     "specifiche": {
+       "forza_trazione_max": 50,
+       "forza_serraggio_max": 120,
+       "velocita_max": 2200,
+       "Q": -0.132,
+       "b": 12,
+       "h": 80,
+       "Rmed": 130,
+       "Z": 30
+     }
+   },
+   "530": {
+     "specifiche": {
+       "forza_trazione_max": 60,
+       "forza_serraggio_max": 150,
+       "velocita_max": 1800,
+       "Q": -0.41,
+       "b": 12,
+       "h": 100,
+       "Rmed": 190,
+       "Z": 30
+     }
+   },
+   "650": {
+     "specifiche": {
+       "forza_trazione_max": 100,
+       "forza_serraggio_max": 180,
+       "velocita_max": 1600,
+       "Q": -0.41,
+       "b": 12,
+       "h": 116,
+       "Rmed": 245,
+       "Z": 32
+     }
+   }
+ }
+}
