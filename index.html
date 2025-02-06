@@ -163,19 +163,19 @@
         };
 
         async function loadData() {
-            try {
-                const mandriniResp = await fetch('product/tsc.json');
-                const cilindriResp = await fetch('product/sin_s.json');
-                
-                mandriniData = await mandriniResp.json();
-                cilindriData = await cilindriResp.json();
-                populateDropdowns();
-            } catch (error) {
-                console.error('Errore nel caricamento dei dati:', error);
-                document.querySelector('.container').insertAdjacentHTML('afterbegin', 
-                    '<div class="error">Errore nel caricamento dei dati. Controlla la console per i dettagli.</div>');
-            }
-        }
+    try {
+        const mandriniResp = await fetch('./product/tsc.json');
+        const cilindriResp = await fetch('./product/sin_s.json');
+        
+        mandriniData = await mandriniResp.json();
+        cilindriData = await cilindriResp.json();
+        populateDropdowns();
+    } catch (error) {
+        console.error('Errore nel caricamento dei dati:', error);
+        document.querySelector('.container').insertAdjacentHTML('afterbegin', 
+            '<div class="error">Errore nel caricamento dei dati. Controlla la console per i dettagli.</div>');
+    }
+}
 
         function populateDropdowns() {
             const mandrinoSelect = document.getElementById('mandrino-select');
