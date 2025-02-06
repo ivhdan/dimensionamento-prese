@@ -164,16 +164,28 @@
 
         async function loadData() {
     try {
+        console.log('Inizio caricamento dati...');
+        
         const mandriniResp = await fetch('https://ivhdan.github.io/dimensionamento-prese/product/tsc.json');
+        console.log('Risposta mandrini:', mandriniResp);
+        
         const cilindriResp = await fetch('https://ivhdan.github.io/dimensionamento-prese/product/sin_s.json');
+        console.log('Risposta cilindri:', cilindriResp);
+        
+        if (!mandriniResp.ok || !cilindriResp.ok) {
+            throw new Error(`HTTP error! status: ${mandriniResp.status} ${cilindriResp.status}`);
+        }
         
         mandriniData = await mandriniResp.json();
         cilindriData = await cilindriResp.json();
+        
+        console.log('Dati caricati con successo:', { mandriniData, cilindriData });
+        
         populateDropdowns();
     } catch (error) {
-        console.error('Errore nel caricamento dei dati:', error);
+        console.error('Errore dettagliato:', error);
         document.querySelector('.container').insertAdjacentHTML('afterbegin', 
-            '<div class="error">Errore nel caricamento dei dati. Controlla la console per i dettagli.</div>');
+            `<div class="error">Errore nel caricamento dei dati: ${error.message}</div>`);
     }
 }
 
