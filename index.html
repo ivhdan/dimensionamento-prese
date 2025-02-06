@@ -166,10 +166,10 @@
     try {
         console.log('Inizio caricamento dati...');
         
-        const mandriniResp = await fetch('../product/tsc.json');
+        const mandriniResp = await fetch('/dimensionamento-prese/product/tsc.json');
         console.log('Risposta mandrini:', mandriniResp);
         
-        const cilindriResp = await fetch('../product/sin_s.json');
+        const cilindriResp = await fetch('/dimensionamento-prese/product/sin_s.json');
         console.log('Risposta cilindri:', cilindriResp);
         
         if (!mandriniResp.ok || !cilindriResp.ok) {
