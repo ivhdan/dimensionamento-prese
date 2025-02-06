@@ -164,8 +164,8 @@
 
         async function loadData() {
     try {
-        const mandriniResp = await fetch('./product/tsc.json');
-        const cilindriResp = await fetch('./product/sin_s.json');
+        const mandriniResp = await fetch('https://ivhdan.github.io/dimensionamento-prese/product/tsc.json');
+        const cilindriResp = await fetch('https://ivhdan.github.io/dimensionamento-prese/product/sin_s.json');
         
         mandriniData = await mandriniResp.json();
         cilindriData = await cilindriResp.json();
